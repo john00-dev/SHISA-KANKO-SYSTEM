@@ -90,8 +90,6 @@
   .problem{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
   .problem ul{list-style:none;display:grid;gap:14px}
   .problem li{display:flex;gap:14px;align-items:center;background:#fff;border-left:6px solid var(--blue);padding:16px 20px;border-radius:12px;box-shadow:0 4px 16px rgba(17,38,90,.07);font-weight:500}
-  .problem li .ico{font-size:1.6rem}
-  .warn{font-size:6rem;text-align:center;line-height:1}
 
   /* ---------- Cómo funciona ---------- */
   .step{text-align:center}
@@ -122,7 +120,6 @@
 
   /* ---------- Beneficios ---------- */
   .benefit{text-align:center}
-  .benefit .ico{font-size:2.6rem;margin-bottom:10px}
   .benefit h3{color:var(--navy);font-size:1.12rem}
   .benefit p{color:var(--muted);font-size:.92rem;margin-top:6px}
   .quote{margin-top:44px;background:var(--navy);color:#fff;border-radius:var(--radius);padding:34px;text-align:center;font-style:italic;font-weight:700;font-size:clamp(1.05rem,2vw,1.3rem);box-shadow:0 16px 40px rgba(11,42,111,.3)}
@@ -175,7 +172,7 @@
 <nav>
   <div class="wrap">
     <a href="#inicio" class="brand">SKS<span>.</span></a>
-    <button class="menu-btn" aria-label="Abrir menú" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+    <button class="menu-btn" aria-label="Abrir menú" onclick="document.querySelector('.links').classList.toggle('open')">Menú</button>
     <ul class="links">
       <li><a href="#filosofia">Filosofía japonesa</a></li>
       <li><a href="#problema">Problema</a></li>
@@ -195,7 +192,7 @@
       <div class="tagline">Señalar, decir y verificar, por una operación más segura</div>
       <p class="lead">Una solución innovadora que promueve el cumplimiento de los protocolos de seguridad en manufactura, inspirada en la filosofía japonesa Shisa Kanko.</p>
       <div class="cta">
-        <a href="#videos" class="btn btn-primary">▶ Ver el sistema en acción</a>
+        <a href="#videos" class="btn btn-primary">Ver el sistema en acción</a>
         <a href="#filosofia" class="btn btn-ghost">Conocer la filosofía</a>
       </div>
     </div>
@@ -259,14 +256,13 @@
       <div>
         <p class="sub" style="margin:0 0 24px">En las operaciones diarias de manufactura, los operarios pueden ignorar los protocolos de seguridad por:</p>
         <ul>
-          <li><span class="ico">😵‍💫</span>Distracción en la operación</li>
-          <li><span class="ico">🔁</span>Rutina en las tareas</li>
-          <li><span class="ico">🔕</span>Falta de recordatorios efectivos</li>
-          <li><span class="ico">⏱️</span>Presión por cumplir tiempos</li>
+          <li>Distracción en la operación</li>
+          <li>Rutina en las tareas</li>
+          <li>Falta de recordatorios efectivos</li>
+          <li>Presión por cumplir tiempos</li>
         </ul>
       </div>
       <div class="card" style="text-align:center">
-        <div class="warn">⚠️</div>
         <h3 style="color:var(--navy);margin:10px 0 8px">Un segundo de descuido</h3>
         <p style="color:var(--muted)">La mayoría de accidentes con máquinas no ocurre por desconocer la norma, sino por saltarse un paso que “siempre se hace”. Shisa Kanko ataca justo ese momento.</p>
       </div>
@@ -316,7 +312,7 @@
 <!-- ================= VIDEOS ================= -->
 <section id="videos">
   <div class="wrap">
-    <div class="head reveal"><div class="num">▶</div><h2>Mira SKS en acción</h2></div>
+    <div class="head reveal"><div class="num">VIDEO</div><h2>Mira SKS en acción</h2></div>
     <p class="sub reveal">Estas simulaciones muestran cómo el sistema obliga a cumplir los tres pasos: si falta alguno, la máquina permanece bloqueada.</p>
     <div class="grid-2 reveal">
       <div class="video-card">
@@ -350,9 +346,9 @@
   <div class="wrap">
     <div class="head reveal"><div class="num">04</div><h2>Beneficios de SKS</h2></div>
     <div class="grid-3 reveal">
-      <div class="card benefit"><div class="ico">📋</div><h3>Mayor cumplimiento de protocolos de seguridad</h3><p>Cada paso crítico queda verificado antes de operar la máquina.</p></div>
-      <div class="card benefit"><div class="ico">👥</div><h3>Fortalece la cultura de seguridad empresarial</h3><p>Convierte la seguridad en un hábito visible y compartido por todo el equipo.</p></div>
-      <div class="card benefit"><div class="ico">🛡️</div><h3>Reducción de riesgos y accidentes humanos</h3><p>Disminuye los errores por distracción, rutina o presión de tiempo.</p></div>
+      <div class="card benefit"><h3>Mayor cumplimiento de protocolos de seguridad</h3><p>Cada paso crítico queda verificado antes de operar la máquina.</p></div>
+      <div class="card benefit"><h3>Fortalece la cultura de seguridad empresarial</h3><p>Convierte la seguridad en un hábito visible y compartido por todo el equipo.</p></div>
+      <div class="card benefit"><h3>Reducción de riesgos y accidentes humanos</h3><p>Disminuye los errores por distracción, rutina o presión de tiempo.</p></div>
     </div>
     <div class="quote reveal">Solución efectiva para seguir los protocolos de Seguridad y Salud en el Trabajo (SST), basada en la filosofía japonesa, promoviendo una cultura de seguridad en la industria de Colombia.</div>
   </div>
@@ -384,7 +380,7 @@
             <li><b>10%</b><span>Sector primario</span></li>
             <li><b>4%</b><span>Artes y cultura</span></li>
           </ul>
-          <div class="note">❝ Nos centramos en empresas de manufactura que buscan mejorar el cumplimiento de la seguridad de manera práctica, tecnológica y eficiente.</div>
+          <div class="note">Nos centramos en empresas de manufactura que buscan mejorar el cumplimiento de la seguridad de manera práctica, tecnológica y eficiente.</div>
         </div>
       </div>
     </div>
@@ -398,7 +394,7 @@
     <div class="reveal">
       <h2 style="font-size:2rem;color:var(--navy);margin-bottom:14px">Nuestro póster</h2>
       <p style="color:var(--muted);margin-bottom:22px">Proyecto de emprendimiento desarrollado en la Universidad El Bosque. Haz clic en la imagen para verla en grande o descárgala.</p>
-      <a class="btn btn-primary" href="assets/poster-sks.png" download>⬇ Descargar póster</a>
+      <a class="btn btn-primary" href="assets/poster-sks.png" download>Descargar póster</a>
     </div>
   </div>
 </section>
